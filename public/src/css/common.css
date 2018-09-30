@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #6BD4FF !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -115,7 +115,7 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #8DC429;
+  background: linear-gradient(135deg,#19749A,#3F51B5);
   margin: 0;
   border: 0;
 }
@@ -128,7 +128,7 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #6C9032;
+  background-color: #368BAF;
   color: #fff;
 }
 
@@ -166,7 +166,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #7CAD23;
+  background-color: #368BAF;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -192,8 +192,8 @@ margin-left: 0;
 
 .loader-gif {
   display: inline-block;
-  width: 16px;
-  height: 11px;
+  width: 24px;
+  height: 24px;
   background: transparent url(../img/loading.gif) no-repeat;
   margin-left: 5px;
   background-position: bottom;
@@ -202,14 +202,14 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #BCDF7E;
+  color: #E6E6FA;
   font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #BCDF7E;
+  color: #E6E6FA;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
 }
@@ -217,7 +217,7 @@ margin-left: 0;
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #597338;
+  background-color: #11526D;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -396,7 +396,7 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #8DC429; }
+.progress-bar-info { background-color: #19749A; }
 
 .txvalues-sidebyside {
   width: 50%;
@@ -478,7 +478,7 @@ margin-left: 0;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   border-top: none;
-  border: 1px solid #64920F;
+  border: 1px solid #11526D;
   padding: 10px 20px;
   position: absolute;
   text-align: center;
@@ -686,7 +686,7 @@ label.tabLabel {
 span.transaction_tabs_selected {
   color: #555;
   border: 1px solid #ddd;
-  border-top: 2px solid #66CDAA;
+  border-top: 2px solid #29BAF7;
   border-bottom: 2px solid #fff;
   padding: 7px 25px;
 }
