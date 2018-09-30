@@ -777,9 +777,6 @@ a.v_highlight_more {
   .navbar-form {
     width: auto;
   }
-  .btn-copy {
-    display: none;
-  }
   .col-gray-fixed {
     position:static;
     width: 100%;
