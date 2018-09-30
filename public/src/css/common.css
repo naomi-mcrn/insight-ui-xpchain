@@ -258,6 +258,11 @@ margin-left: 0;
   white-space: nowrap;
 }
 
+.sidebyside {
+  display: inline-block;
+  _display: inline;
+}
+
 .line20 {
   border: 1px solid #D4D4D4;
   margin-bottom: 15px;
@@ -379,6 +384,10 @@ margin-left: 0;
   background-color: #AC0015;
 }
 
+.txvalues-generate {
+  background-color: #CA428F;
+}
+
 .txvalues-normal {
   background-color: transparent;
   text-transform: none;
@@ -387,6 +396,15 @@ margin-left: 0;
   font-weight: normal;
 }
 .progress-bar-info { background-color: #8DC429; }
+
+.txvalues-sidebyside {
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  _display: inline;
+}
 
 /* Set the fixed height of the footer here */
 #footer {
@@ -656,6 +674,44 @@ margin-left: 0;
 }
 
 .transaction-vin-vout {
+}
+
+label.tabLabel {
+  margin: 0 0 -4px;
+  padding: 5px 25px;
+  font-size: 11pt;
+}
+
+span.transaction_tabs_selected {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid #66CDAA;
+  border-bottom: 2px solid #fff;
+  padding: 7px 25px;
+}
+
+span.transaction_tabs {
+    display: inline-block;
+    margin: 0 0 -1px;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+    padding: 5px 25px;
+}
+
+span.transaction_tabs_selected:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+span.transaction_tabs:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+span.tx-contents {
+  border-top: 1px solid #ddd;
+  display: block;
 }
 
 .v_highlight {
