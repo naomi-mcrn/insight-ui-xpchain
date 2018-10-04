@@ -20,20 +20,14 @@ msgid "404 Page not found :("
 msgstr "404 ページがみつかりません (´・ω・`)"
 
 #: public/views/index.html
-msgid ""
-"<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Bitcoin blockchain explorer</a> with complete REST "
-"and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by bitcoind RPC.  "
-"Check out the <a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank"
-"\">source code</a>."
-msgstr ""
-"<strong>insight</strong>は、bitcoind RPCの提供するものよりも詳細なブロック"
-"チェインへの問い合わせを必要とするウェブウォレットやその他のアプリを書くのに"
-"使える、完全なRESTおよびwebsocket APIを備えた<a href=\"http://live.insight."
-"is/\" target=\"_blank\">オープンソースのビットコインブロックエクスプローラ</"
-"a>です。<a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank\">ソース"
-"コード</a>を確認"
+msgid "this site is an open-source <strong>XPChain BlockchainExplorer</strong>"
+msgstr "このサイトは<strong>XPChain</strong> の <strong>ブロックチェーンエクスプローラ</strong>です。"
+
+msgid "with complete REST and websocket APIs that can be used for writing web wallets and other apps"
+msgstr "xpchaind RPCよりも詳細なブロックチェーンへの問い合わせを必要とするWebウォレットやその他のアプリケーションを"
+
+msgid "that need more advanced blockchain queries than provided by xpchaind RPC.  Check out the <a href="https://github.com/ett126/insight-ui-xpchain" target="_blank">source code</a>."
+msgstr "作成するためのAPI機能を備えています。ソースコードは<a href="https://github.com/ett126/insight-ui-xpchain" target="_blank">こちら</a>"
 
 #: public/views/index.html
 msgid ""
@@ -74,12 +68,12 @@ msgid "Best Block"
 msgstr "最良ブロック"
 
 #: public/views/messages_verify.html
-msgid "Bitcoin comes with a way of signing arbitrary messages."
-msgstr "Bitcoinには任意のメッセージを署名する昨日が備わっています。"
+msgid "XPChain comes with a way of signing arbitrary messages."
+msgstr "XPChainには任意のメッセージを署名する機能が備わっています。"
 
 #: public/views/status.html
-msgid "Bitcoin node information"
-msgstr "Bitcoinノード情報"
+msgid "XPChain node information"
+msgstr "XPChainノード情報"
 
 #: public/views/block.html
 msgid "Block"
@@ -104,11 +98,11 @@ msgstr "シリアライズ後の容量 (バイト)"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to bitcoind to get live updates from the p2p network. (Tried "
-"connecting to bitcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to xpchaind to get live updates from the p2p network. (Tried "
+"connecting to xpchaind and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにbitcoindへ接続することができませ"
-"んでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
+"P2Pネットワークからライブ情報を取得するためにxpchaindへ接続することができませ"
+"んでした。(接続を試みましたが、失敗しました。)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -213,8 +207,8 @@ msgid "Last Block"
 msgstr "直前のブロック"
 
 #: public/views/status.html
-msgid "Last Block Hash (Bitcoind)"
-msgstr "直前のブロックのハッシュ値 (Bitcoind)"
+msgid "Last Block Hash (XPChaind)"
+msgstr "直前のブロックのハッシュ値 (XPChaind)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -426,17 +420,17 @@ msgstr "このアドレスに対するトランザクションはありません
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Bitcoin network."
+"        the XPChain network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをBitcoinネットワー"
+"このフォームでは、16進数フォーマットの生のトランザクションをXPChainネットワー"
 "ク上に配信することができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Bitcoin address."
+"        a specific XPChain address."
 msgstr ""
-"このフォームでは、メッセージが特定のBitcoinアドレスから来たかどうかを検証する"
+"このフォームでは、メッセージが特定のXPChainアドレスから来たかどうかを検証する"
 "ことができます。"
 
 #: public/views/status.html
@@ -527,7 +521,7 @@ msgstr "トランザクションを待っています..."
 
 #: public/views/block_list.html
 msgid "by date."
-msgstr "日毎。"
+msgstr "日毎"
 
 #: public/views/transaction/tx.html
 msgid "first seen at"
@@ -535,11 +529,23 @@ msgstr "最初に発見された日時"
 
 #: public/views/transaction/tx.html
 msgid "mined"
-msgstr "採掘された"
+msgstr "採掘"
 
 #: public/views/block_list.html
 msgid "mined on:"
 msgstr "採掘日時:"
+
+#: public/views/transaction/addr_list.html
+msgid "Details"
+msgstr "詳細"
+
+#: public/views/transaction/addr_list.html
+msgid "Historys"
+msgstr "履歴"
+
+#: public/views/transaction.html
+msgid "VSize"
+msgstr "仮想サイズ(VSize)"
 
 #~ msgid "(Mainchain)"
 #~ msgstr "(メインチェーン)"
