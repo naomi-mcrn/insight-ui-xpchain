@@ -466,6 +466,10 @@ msgstr "zuerst gesehen am"
 msgid "mined"
 msgstr "gefunden"
 
+#: public/views/transaction/tx.html
+msgid "stake"
+msgstr "anteil"
+
 #: public/views/block_list.html
 msgid "mined on:"
 msgstr "vom:"

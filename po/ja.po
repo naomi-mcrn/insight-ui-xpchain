@@ -531,6 +531,10 @@ msgstr "最初に発見された日時"
 msgid "mined"
 msgstr "採掘"
 
+#: public/views/transaction/tx.html
+msgid "stake"
+msgstr "ステーク"
+
 #: public/views/block_list.html
 msgid "mined on:"
 msgstr "採掘日時:"

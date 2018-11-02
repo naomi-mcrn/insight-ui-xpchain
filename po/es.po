@@ -462,6 +462,10 @@ msgstr "Visto a"
 msgid "mined"
 msgstr "minado"
 
+#: public/views/transaction/tx.html
+msgid "stake"
+msgstr "estaca"
+
 #: public/views/block_list.html
 msgid "mined on:"
 msgstr "minado el:"

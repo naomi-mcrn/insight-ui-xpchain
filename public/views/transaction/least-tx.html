@@ -10,7 +10,8 @@
     </div>
     <div align="right">
     <div class="sidebyside" data-ng-init="$scope.totalval = 0"/>
-    <div class="txvalues txvalues-generate ng-binding sidebyside" data-ng-if="tx.isCoinBase"><span translate>mined</span></div>
+    <div class="txvalues txvalues-generate ng-binding sidebyside" data-ng-if="tx.isCoinBase && tx.blockheight < tx.switchheight" ><span translate>mined</span></div>
+    <div class="txvalues txvalues-generate ng-binding sidebyside" data-ng-if="tx.isCoinBase && tx.blockheight >= tx.switchheight"><span translate>stake</span></div>
     <div class="txvalues txvalues-primary ng-binding sidebyside">{{$root.currency.getSignConvertion($scope.totalval)}}</div>
     <div data-ng-show="tx.confirmations" class="txvalues       txvalues-success ng-binding sidebyside" ><span translate>Confirmations</span>:{{tx.confirmations}}</div>
     <div data-ng-show="!tx.confirmations" class="txvalues       txvalues-danger ng-binding sidebyside" >Unconfirmed Transaction!</div>
