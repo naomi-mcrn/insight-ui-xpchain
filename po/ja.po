@@ -544,7 +544,7 @@ msgid "Details"
 msgstr "詳細"
 
 #: public/views/transaction/addr_list.html
-msgid "Historys"
+msgid "Histories"
 msgstr "履歴"
 
 #: public/views/transaction.html

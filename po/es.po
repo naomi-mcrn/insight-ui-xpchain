@@ -478,6 +478,6 @@ msgid "Details"
 msgstr "Detalles"
 
 #: public/views/transaction/addr_list.html
-msgid "Historys"
-msgstr "Historys"
+msgid "Histories"
+msgstr "Historias"
 
